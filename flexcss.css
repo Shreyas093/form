@@ -1,0 +1,75 @@
+*{
+    margin: 0%; 
+   padding: 0%;
+}
+.all{
+   background-color: indianred;
+   display: flex;
+flex-direction: row;
+}
+
+.info{
+   background-color:rgb(211, 171, 177);
+width: 900px;
+height: 800px;
+}
+.heading{
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.button1{
+   background-color: #b12b1cd0;
+   color: white;
+   border: none;
+   height: 50px;
+   width: 110px;
+   border-radius: 6px;
+   cursor: pointer;
+   font-weight:bold;
+   font-size: 25px;
+   box-shadow:5px 5px 5px rgba(0, 0, 0,0.15);
+   transition: 0.15s;
+   margin-right: 75px;
+   margin-left: 45px;
+
+}
+.button2{
+   background-color:#b12b1cd0;
+   color: white;
+   border: none;
+   height: 45px;
+   width: 100px;
+   border-radius: 6px;
+   cursor: pointer;
+   font-weight:bold;
+   font-size: 25px;
+   box-shadow:5px 5px 5px rgba(0, 0, 0,0.15);
+   transition: 0.15s;
+   margin-right: 60px;
+}
+.img1{
+   padding: 0%;
+}
+.form{
+   padding: 20px;
+   font-size: 30px;
+}
+#chose{
+   height: 30px;
+  padding: 2px;
+  display: inline-block;
+  font-size: 18px;
+}
+#dob{
+  height: 20px;
+  padding: 2px;
+  display: inline-block;
+  font-size: 20px;
+}
+#fname, #lname, #tel{
+   height: 20px;
+}
+#s1{
+   margin-left: 20px;
+}
